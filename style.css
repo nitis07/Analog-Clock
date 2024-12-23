@@ -1,0 +1,58 @@
+body{
+  background: linear-gradient(#3f5efb , #fc466b);
+  height: 100vh;
+}
+.clock-container{
+  height: 400px;
+  width: 400px;
+  background-color: aquamarine;
+  background: url(/—Pngtree—black\ clock\ no\ hand_6848549.png);
+  position: relative;
+  background-size: 100%;
+  margin: auto;
+}
+.hour , .minute , .second{
+  position: absolute;
+  background-color: black;
+  border-radius: 10px;
+}
+.hour{
+  width: 1%;
+  height: 20%;
+  left: 50%;
+  top: 29%;
+  transform-origin: bottom;
+  opacity: 0.8;
+}
+.second{
+  width: 1%;
+  height: 25%;
+  left: 50%;
+  top: 25%;
+  transform-origin: bottom;
+  opacity: 0.8;
+}
+.minute{
+  width: 1%;
+  height: 22%;
+  left: 50%;
+  top: 28%;
+  transform-origin: bottom;
+  opacity: 0.8;
+}
+#helo{
+  text-align: center;
+  font-size: 52px;
+}
+#time-zone{
+  text-align: center
+}
+#time{
+  font-size: 40px;
+  margin: 20px 0;
+
+}
+#date{
+  font-size: 26px;
+  
+}
